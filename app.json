@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Refashion Clothes",
+    "slug": "Refashion Clothes",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon":"./assets/refashion3.png",
+    "splash": {
+      "image": "./assets/refashion3.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6fc0b8"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+     "android": {
+      "package": "com.refashion.refashion",
+      "versionCode": 1
+    }
+  }
+}
